@@ -1,0 +1,23 @@
+{
+  "name": "easy-vreco",
+  "version": "1.0.0",
+  "description": "Reto geolocation  ***\r ## RECURSOS",
+  "main": "index.js",
+  "scripts": {
+   "build": "babel src -d js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gloper98/easy-vreco.git"
+  },
+  "author": "Melissa y Ani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gloper98/easy-vreco/issues"
+  },
+  "homepage": "https://github.com/Gloper98/easy-vreco#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}

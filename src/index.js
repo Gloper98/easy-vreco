@@ -38,8 +38,8 @@ function search() {
   }
 }
 
-let lat; 
-let lng;
+let latitude; 
+let longitude;
 
 let success = function(position) {
   latitude = position.coords.latitude;
