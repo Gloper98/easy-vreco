@@ -10,25 +10,35 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../css/main.css">
 </head>
-
-<body class="h-100vh">
-  <a class="waves-effect waves-light btn" id="gtLocation">Aqui estoy</a>
-  <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <input id="startPoint" type="text" class="validate">
-          <label for="startPoint"></label>
+<body class="blue lighten-4 h-100vh">
+  <div class="container">
+    <br>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <a class="waves-effect waves-light btn col s2" id="gtLocation">Aqui estoy</a>
         </div>
-        <div class="input-field col s6">
-          <input id="destinationPoint" type="text" class="validate">
-          <label for="destinationPoint"></label>
+      </form>
+    </div>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <a class="waves-effect waves-light btn col s2" id="traceRoute">TRAZAR RUTA</a>
+          <div class="offset-s1 input-field col s4">
+            <input id="startPoint" type="text" class="validate" placeholder="">
+            <label for="startPoint">Ingresa tu ubicación</label>
+          </div>
+          <div class="input-field col s4">
+            <input id="destinationPoint" type="text" class="validate" placeholder="">
+            <label for="destinationPoint">Ingresa tu destino</label>
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </div>
+    <div class="row">
+      <div id="map"></div>
+    </div>
   </div>
-  <a class="waves-effect waves-light btn" id="traceRoute">TRAZAR RUTA</a>
-  <div id="map"></div>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi61GxImzRxDVWug9rXFNNq4YncMEgkB8&callback=initMap&libraries=places">

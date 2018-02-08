@@ -45,15 +45,7 @@
   margin-bottom: 0;
 }
 
-/* .container-animation {
-  box-sizing: border-box;
-  position: relative;
-  font-size: 60px;
-  width: 40px;
-  margin: 80px auto;
-  margin-top: 0;
-  margin-bottom: 0;
-} */
+/* Tablet */
 
 @media only screen and (min-width: 601px) {
   .container-animation {
@@ -74,6 +66,8 @@
   }
 }
 
+/* Desktop */
+
 @media only screen and (min-width: 993px) {
   .container-animation {
     box-sizing: border-box;
@@ -92,6 +86,8 @@
     height: 250px;
   }
 }
+
+/* Desktop large */
 
 @media only screen and (min-width: 1201px) {
   .container-animation {
